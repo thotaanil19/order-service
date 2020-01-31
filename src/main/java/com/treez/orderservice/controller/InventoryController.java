@@ -21,9 +21,9 @@ import com.treez.orderservice.service.InventoryService;
 
 @RestController
 @RequestMapping("/inventories")
-public class InventoriesController {
+public class InventoryController {
 	
-	private static final Logger LOGGER = LoggerFactory.getLogger(InventoriesController.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(InventoryController.class);
 
 	@Autowired
 	private InventoryService inventoryService;
